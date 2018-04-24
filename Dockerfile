@@ -12,4 +12,9 @@ USER jenkins
 COPY docker-slaves.xml /usr/share/jenkins/ref/
 RUN /usr/local/bin/install-plugins.sh \
   docker-slaves \
-  github-branch-source
+  github-branch-source \
+  github-organization-folder \
+  pipeline-github-lib \
+  antisamy-markup-formatter \
+  workflow-aggregator \
+  ws-cleanup

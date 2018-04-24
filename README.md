@@ -1,7 +1,7 @@
 Jenkins with Docker
 ===================
 
-This is the Jenkins image with Docker CLI and Docker slaves plugin preinstalled.
+This is the Jenkins image with Docker CLI and Docker slaves plugin preinstalled.  It includes a few other plugins that are part of the "suggested" group, not all are loaded as some of them would not make sense when Docker slaves are present as it is expected that the Docker slaves themselves would provide images containing the respective build tools.
 
 ## Usage secure
 
